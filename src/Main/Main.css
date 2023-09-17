@@ -1,0 +1,120 @@
+.outer_main_wrapper_00 {
+  margin-left: 19%;
+  margin-top: 8%;
+  width: 100vw;
+  height: 100vh;
+  background: var(--Dark01, #0d0b21);
+  position: fixed;
+}
+
+.outer_main_wrapper_01 {
+  /* height: 16.5%; */
+  width: 75%;
+  margin-left: 3.1%;
+  margin-top: 30px;
+  border-radius: 14px;
+  background: var(--Dark02, #15132b);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.04);
+}
+
+.outer_main_wrapper_upper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+}
+
+.outer_main_wrapper_upper > section {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+.outer_main_wrapper_upper_right {
+  display: flex;
+  flex-direction: row;
+  gap: 18px;
+}
+.outer_main_wrapper_upper > section > span {
+  color: var(--White, #fff);
+  font-family: " Cairo";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+}
+#arrow_main {
+  width: 22px;
+  height: 22px;
+  border-radius: 14px;
+  background: #a5a5a5;
+}
+
+.outer_main_wrapper_down {
+  display: flex;
+  align-items: center;
+  padding-left: 7%;
+  padding-right: 30px;
+  gap: 20px;
+  padding-bottom: 30px;
+}
+
+.outer_main_wrapper_down_cards {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  gap: 20px;
+}
+#card_shwon {
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  border-radius: 30px;
+  border: 3px solid #15132b;
+  background: #c4c4c4;
+  color: var(--White, #fff);
+  font-family: "Cairo";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.card_section_down {
+  cursor: pointer;
+  color: var(--White, #fff);
+  font-family: "Cairo";
+  font-size: 15px;
+  font-style: normal;
+  gap: 8px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 14%;
+  height: 35px;
+  border-radius: 14px;
+  background: var(--Primary, #6418c3);
+}
+
+.card_section_down:hover{
+  background: var(--Primary, #2d045f);
+}
+
+.outer_main_wrapper_down > span {
+  margin-left: 5%;
+  color: var(--White, #fff);
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+}
+.progress_bar_medium {
+  width: 170px;
+  height: 14px;
+  border-radius: 16px;
+  background: linear-gradient(
+    to right,
+    var(--Color1, #6418c3) 50%,
+    var(--Color2, #1e1c3a) 50%
+  );
+}
